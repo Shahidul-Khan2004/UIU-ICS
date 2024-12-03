@@ -1,3 +1,5 @@
+//Take a character input and print its corresponding ASCII value.
+
 #include <stdio.h>
 
 int main (void) {

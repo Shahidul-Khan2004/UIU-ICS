@@ -1,3 +1,5 @@
+//Take input of 3 integer numbers and print the sum of them
+
 #include <stdio.h>
 
 int main (void) {

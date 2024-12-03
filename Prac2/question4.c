@@ -1,3 +1,5 @@
+//Take input of 1 integer and 1 float number. Print the sum of them
+
 #include <stdio.h>
 
 int main (void) {

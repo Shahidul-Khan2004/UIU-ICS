@@ -1,3 +1,7 @@
+/*Take input of 2 integer numbers and calculate the sum,
+subtraction, multiplication of them. Print each of them in new
+lines.*/
+
 #include <stdio.h>
 
 int main (void) {

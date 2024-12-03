@@ -1,3 +1,5 @@
+//Take input of an integer number and print it
+
 #include <stdio.h>
 
 int main (void) {

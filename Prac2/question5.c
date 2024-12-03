@@ -1,3 +1,6 @@
+/*Take input of 5 integer numbers , calculate their average and
+print the average result*/
+
 #include <stdio.h>
 
 int main (void) {
