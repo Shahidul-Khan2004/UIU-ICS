@@ -10,7 +10,7 @@ int main (void) {
     short int d;
     a = 2147483647;
     b = 9223372036854775807;
-    c = 3.141592653589793238462643383279;
+    c = (long double)1.1E+4932L;
     d = 32767;
-    printf("The long int value: %ld\nThe long long int value: %lld\nThe long double value: %Lf\nThe short int value: %hd", a, b, c, d);
+    printf("The long int value: %ld\nThe long long int value: %lld\nThe long double value: %.1Le\nThe short int value: %hd", a, b, c, d);
 }
