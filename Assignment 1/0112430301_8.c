@@ -1,4 +1,4 @@
-/*Program that will take three integer numbers from keyboard but assign only the first and **
+/*Program that will take three integer numbers from keyboard but assign only the first and 
 last inputs to variables and skip any assignment of the middle one.*/
 
 #include <stdio.h>

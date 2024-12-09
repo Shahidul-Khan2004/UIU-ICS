@@ -1,4 +1,4 @@
-/*Program that will declare a variable from each data type: double, boolean. Then it will *
+/*Program that will declare a variable from each data type: double, boolean. Then it will 
 initialize them with values and print them.*/
 
 #include <stdio.h>

@@ -1,4 +1,4 @@
-/*Program that will receive the values of an integer, a floating point number, a character from *
+/*Program that will receive the values of an integer, a floating point number, a character from 
 the keyboard and print those values.*/
 
 #include <stdio.h>
