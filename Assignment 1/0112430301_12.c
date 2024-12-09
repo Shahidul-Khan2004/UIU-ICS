@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 int main (void) {
-    const float pi = 3.14;
-    const float goldenRatio = 1.62;
-    printf("The value of pi: %.2f\nThe value of golden ratio: %.2f", pi, goldenRatio);
+    const float PI = 3.14;
+    const float GOLDEN = 1.62;
+    printf("The value of pi: %.2f\nThe value of golden ratio: %.2f", PI, GOLDEN);
 }
