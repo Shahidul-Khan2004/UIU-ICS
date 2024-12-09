@@ -4,7 +4,7 @@ them.*/
 
 #include <stdio.h>
 
-void commaAdder (unsigned short int num);
+void commaAdder (unsigned short int num); //done in order to match the sample output but has not been specified in the question
 
 int main (void) {
     unsigned int a;
@@ -13,7 +13,7 @@ int main (void) {
     unsigned short int d;
     a = 4294967295;
     b = 4294967295;
-    c = 18446744073709551615ULL;
+    c = 18446744073709551615ULL; // ULL is added to specify a unsigned long long value and avoid overflow
     d = 65535;
     printf("The unsigned int value: %u\nThe unsigned long int value: %lu\nThe unsigned long long int value: %llu\n", a, b, c);
     commaAdder(d);

@@ -13,7 +13,7 @@ int main (void) {
     int a = 20;
     printf("B. Local: %d\n", a);
     {
-        extern int a;
+        extern int a; //gets the external (outside main function) value of a
         printf("C. Global: %d\n", a);
     }
 }
