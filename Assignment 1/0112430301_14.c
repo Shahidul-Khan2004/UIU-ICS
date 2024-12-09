@@ -6,14 +6,14 @@ C. Explicitly print the value of the variable as global*/
 
 #include <stdio.h>
 
-int a = 100;
+int a = 10;
 
 int main (void) {
-    printf("Value of the variable before defining the local variable: %d\n", a);
-    int a = 10;
-    printf("Value of the variable after defining the local variable : %d\n", a);
+    printf("A. Global: %d\n", a);
+    int a = 20;
+    printf("B. Local: %d\n", a);
     {
         extern int a;
-        printf("The value of the variable as global\t\t\t: %d\n", a);
+        printf("C. Global: %d\n", a);
     }
 }
