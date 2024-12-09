@@ -4,17 +4,18 @@ their addition, subtraction, multiplication, division (quotient and reminder).*/
 #include <stdio.h>
 
 int main (void) {
-    float a, b, add, sub, multi, quo, rem;
+    float X, Y, add, sub, multi;
+    int quo, rem;
     printf("Enter the first number : ");
-    scanf("%f", &a);
+    scanf("%f", &X);
     printf("Enter the second number: ");
-    scanf("%f", &b);
+    scanf("%f", &Y);
 
-    add = a + b;
-    sub = a - b;
-    multi = a * b;
-    quo = a / b;
-    rem = (int) a % (int) b;
+    add = X + Y;
+    sub = X - Y;
+    multi = X * Y;
+    quo = (int) X / (int) Y;
+    rem = (int) X % (int) Y;
 
-    printf("Addition: %.1f\nSubtraction: %.1f\nMultiplication: %.1f\nQuotient: %.0f\nReminder: %.0f", add, sub, multi, quo, rem);
+    printf("Addition: %.1f\nSubtraction: %.1f\nMultiplication: %.1f\nQuotient: %d\nReminder: %d", add, sub, multi, quo, rem);
 }
