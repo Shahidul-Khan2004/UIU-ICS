@@ -1,3 +1,4 @@
+//Write a C program that will print the lines given in the sample output:
 #include <stdio.h>
 
 int main (void) {
