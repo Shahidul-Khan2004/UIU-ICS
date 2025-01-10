@@ -4,8 +4,13 @@
 
 int main (void) {
     char *str = NULL;
-    char buffer[16];
+    int n;
+    printf("enter the approzimate size of your string: ");
+    scanf("%d", &n);
+    getchar();
+    str = (char*) malloc((n + 1) * sizeof(char));
     printf("Please enter a string: ");
-    fgets(buffer, sizeof(buffer), stdin);
-    printf("%s", buffer);
+    fgets(str, n + 1, stdin);
+    str[strcspn(str, "\n")] = '\0';
+    printf("%s", str);
 }
