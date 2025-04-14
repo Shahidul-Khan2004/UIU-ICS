@@ -14,6 +14,7 @@ int main(void) {
     if (X == n1)
     {
         printf("Right, Player-2 wins!\n");
+        return 1;
     } else {
         printf("Wrong, 2 Chance(s) Left!\n");
     }
@@ -21,6 +22,7 @@ int main(void) {
     if (X == n2)
     {
         printf("Right, Player-2 wins!\n");
+        return 1;
     } else {
         printf("Wrong, 1 Chance(s) Left!\n");
     }
@@ -28,6 +30,7 @@ int main(void) {
     if (X == n3)
     {
         printf("Right, Player-2 wins!\n");
+        return 1;
     } else {
         printf("Player-1 wins!");
     }
